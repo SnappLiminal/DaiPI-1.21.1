@@ -19,6 +19,6 @@ public class DaiPI implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Throwing a wrench into the works!");
+		LOGGER.info("Throwing a wrench until it works!");
 	}
 }

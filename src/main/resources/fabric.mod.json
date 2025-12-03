@@ -3,13 +3,13 @@
 	"id": "daipi",
 	"version": "${version}",
 	"name": "DaiPI",
-	"description": "Let's a cute girl build stuff for SnappLiminal mods! [Pronounced Day-P.I.]",
+	"description": "Let's a cute girl build stuff for SnappLiminal modpacks! [Pronounced Day-P.I.]",
 	"authors": [
 		"SnappLiminal"
 	],
 	"contact": {
 		"homepage": "https://x.com/SnappLiminal",
-		"sources": "https://github.com/SnappLiminal"
+		"sources": "https://github.com/SnappLiminal/DaiPI-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/daipi/icon.png",
