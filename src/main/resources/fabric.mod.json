@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "daipi",
+	"version": "${version}",
+	"name": "DaiPI",
+	"description": "Let's a cute girl build stuff for SnappLiminal mods! [Pronounced Day-P.I.]",
+	"authors": [
+		"SnappLiminal"
+	],
+	"contact": {
+		"homepage": "https://x.com/SnappLiminal",
+		"sources": "https://github.com/SnappLiminal"
+	},
+	"license": "MIT",
+	"icon": "assets/daipi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sl.api.dai.DaiPI"
+		],
+		"fabric-datagen": [
+			"sl.api.dai.DaiPIDataGenerator"
+		],
+		"client":[
+			"sl.api.dai.DaiPIClient"
+		]
+	},
+	"mixins": [
+		"daipi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
