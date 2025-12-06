@@ -4,6 +4,9 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sl.api.dai.block.ModBlocks;
+import sl.api.dai.items.ModItemGroups;
+import sl.api.dai.items.ModItems;
 
 public class DaiPI implements ModInitializer {
 	public static final String MOD_ID = "daipi";
@@ -20,5 +23,10 @@ public class DaiPI implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Throwing a wrench until it works!");
+
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
